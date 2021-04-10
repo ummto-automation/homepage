@@ -2,14 +2,13 @@
  
 	#header_title{
 		font-family: calibri;
-		font-size: 50px;
 		color: white;
 
 
 	}
 	#header_title:hover{
 		text-decoration: underline;
-		color:gray;
+
 	}	
 
 	#header_bar{
