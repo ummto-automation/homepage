@@ -1,0 +1,273 @@
+<style>
+ 
+	#header_title{
+		font-family: calibri;
+		font-size: 50px;
+		color: white;
+
+
+	}
+	#header_title:hover{
+		text-decoration: underline;
+		color:gray;
+	}	
+
+	#header_bar{
+		 background-image:
+    linear-gradient(to bottom, rgba(256, 250, 252, 0.1), black),
+    url('wallpaper3.jpg');
+   
+    background-size: cover;
+    color: white;
+    padding: 20px;
+
+
+	}
+
+	#presentation_{
+			margin-left: 30px;
+
+	}
+
+	#easel_intro{
+	    
+        animation: anim 3s infinite linear;
+ 
+	}
+
+	@keyframes anim{
+		  from {
+		  	transform: rotate(0deg);
+		  }to{
+		  	transform: rotate(359deg);
+		  }
+	}
+
+
+	#text_slogans{
+     position: relative;
+     text-align: center;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+
+	}
+
+	#text_slogans:hover{
+
+		transform: rotateY(180deg);
+
+	}
+
+	body{
+		background-color:black;
+		font-family: calibri;
+
+	}
+
+	#ici_link_modules:hover{
+			text-decoration: underline;
+	}
+
+	.card{
+        background-color: #dddddd;
+		margin-top: 20px;
+		color:black;
+		border-radius:0px;
+
+	}
+	.card-link{
+		color:black;
+	}
+	.card-link:hover{
+		color:gray;
+	}
+
+	.card:hover{
+			background-color: white;
+
+	}
+
+	#icon_module{
+		     position: relative;
+     text-align: center;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+
+	}
+	#icon_module:hover{
+
+		transform: rotateY(180deg);
+		color:#ffc82d;
+	}
+
+
+	footer{
+		background-color: black;
+		height:400px;
+	
+	}
+
+	footer:hover{
+		background-color: #ffc82d;
+	}
+
+
+
+	#footer_text{
+	    font-family: calibri;
+		font-size:17px;
+		color: #eeeeee;
+		color:white;
+		position:center;
+	}
+
+	.jumbotron{
+		background-color: black;
+		border-radius:0;
+		color: white;
+		
+
+	}
+
+	hr{
+		  background-color:white;
+	
+	}
+
+
+
+
+	#logo{
+		height: 55px;
+		width: 55px;
+		margin-right: 5px;
+		margin-top:20px;
+	}
+
+	#head_menu:hover{
+		color:rgb(255, 98, 0);
+
+	}
+	
+	#icon_boot{
+        color: white;
+          position: relative;
+
+      text-align: center;
+     transition: transform 0.6s;
+     transform-style: preserve-3d;
+
+	}
+	#icon_boot:hover{
+         transform: rotateY(180deg);
+        
+	}
+
+	#general_icon:hover{
+		color:rgb(254,193,7,255);
+
+	}
+
+	
+
+
+    
+    .head_subs1{
+
+
+    	  animation-name: anim;
+          animation-duration: 1.5s;
+          animation-iteration-count: 3;
+    }
+     .head_subs2{
+    	  animation-name: anim;
+          animation-duration: 1.5s;
+          animation-iteration-count: 3;
+
+          
+    }
+     .head_subs3{
+    	  animation-name: anim;
+          animation-duration: 1.5s;
+          animation-iteration-count: 3;
+         
+    }
+
+
+  @keyframes anim {
+  from {color: white;
+  }
+  to {color: black;
+  }
+}
+
+
+
+.labo{
+	 font-family: calibri;
+	 font-weight: bold;
+	 font-size: 35px ;
+	 color: white;
+}
+
+.labo:hover{
+	 color: white;
+}
+
+div{
+	font-family: calibri;
+}
+
+   #news:hover{
+	background-color: #ffc82d;
+}
+	
+
+
+
+
+	.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
