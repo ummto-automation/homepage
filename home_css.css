@@ -2,25 +2,53 @@
  
 	#header_title{
 		font-family: calibri;
+		font-size: 50px;
 		color: white;
 
 
 	}
 	#header_title:hover{
 		text-decoration: underline;
-
+		color:purple;
 	}	
+
+
 
 	#header_bar{
 		 background-image:
-    linear-gradient(to bottom, rgba(256, 250, 252, 0.1), black),
-    url('wallpaper3.jpg');
+    linear-gradient(to bottom, rgba(256, 250, 252, 0.01), black),
+    url('wall11.jpg');
    
     background-size: cover;
     color: white;
     padding: 20px;
 
 
+	}
+
+
+	.under_head{
+
+	background-image:
+    linear-gradient(to bottom,black,rgba(256, 250, 252, 0.01), rgba(256, 250, 252, 0.01),black,black),
+    url('wall11.jpg');
+    background-size: cover;
+   
+    
+    color: white;
+   
+
+	}
+
+	#news{
+	background-image:
+    linear-gradient(to bottom,black,rgba(256, 250, 252, 0.01), rgba(256, 250, 252, 0.01),black,black),
+    url('wall11.jpg');
+    background-size: cover;
+   
+    
+    color: white;
+   
 	}
 
 	#presentation_{
@@ -30,17 +58,16 @@
 
 	#easel_intro{
 	    
-        animation: anim 3s infinite linear;
+       
+
+  position: relative;
+  animation-name: animation_tra;
+  animation-duration: 4s;
+  animation-iteration-count:3;
  
 	}
 
-	@keyframes anim{
-		  from {
-		  	transform: rotate(0deg);
-		  }to{
-		  	transform: rotate(359deg);
-		  }
-	}
+
 
 
 	#text_slogans{
@@ -73,6 +100,8 @@
 		color:black;
 		border-radius:0px;
 
+	
+
 	}
 	.card-link{
 		color:black;
@@ -87,27 +116,40 @@
 	}
 
 	#icon_module{
-		     position: relative;
+      
+      height:100px;
+      width:300px;
+
+      color: #bbaadd;
+
+     position: relative;
      text-align: center;
-     transition: transform 0.6s;
+     transition: transform 0.5s;
      transform-style: preserve-3d;
 
 	}
 	#icon_module:hover{
 
 		transform: rotateY(180deg);
-		color:#ffc82d;
+		
 	}
 
 
 	footer{
 		background-color: black;
-		height:400px;
+		height:450px;
+		font-family: calibri;
 	
 	}
 
 	footer:hover{
-		background-color: #ffc82d;
+		
+	}
+
+	.btn{
+		color:gray;
+		border-color: #bbaadd;
+
 	}
 
 
@@ -153,7 +195,7 @@
           position: relative;
 
       text-align: center;
-     transition: transform 0.6s;
+     transition: transform 0.5s;
      transform-style: preserve-3d;
 
 	}
@@ -248,7 +290,7 @@ div{
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 .sidenav .closebtn {
@@ -268,5 +310,65 @@ div{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+
+
+
+
+@keyframes animation_tra {
+  0%   {left:0px; top:0px;}
+  15%  {left:200px; top:0px; transform: rotate(360deg);}
+  40%  {left:0px; top:0px; transform: rotate(0deg);}
+  50%  {right:0px; top:0px; transform: rotate(0deg);}
+  65%  {right:0px; top:0px; transform: rotate(-0deg);}
+  60%  {right:0px; top:0px;}
+  75%  {right:200px; top:0px;transform: rotate(-360deg)}
+  100% {right:0px; top:0px;}
+}
+
+
+
+
+
+
+#school_icon{
+	animation-name: tra_school;
+	animation-iteration-count: 1;
+	position:relative;
+	animation-duration: 0.7s;
+}
+
+#laptop_icon{
+	animation-name: tra_laptop;
+	animation-iteration-count: 1;
+	position:relative;
+	animation-duration: 0.7s;
+}
+
+
+@keyframes tra_school{
+    
+    0%{right:250px;top:250px;}
+    50%{right:250px;top:0px;}
+    100%{right:0px;top:0px;}
+}
+
+@keyframes tra_laptop{
+    
+ 0%{left:250px;top:250px;}
+    50%{left:250px;top:0px;}
+    100%{left:0px;top:0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 </style>
