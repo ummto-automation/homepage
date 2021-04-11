@@ -209,7 +209,6 @@
 
 	#footer_text{
 	    font-family: calibri;
-		font-size:17px;
 		color: #eeeeee;
 		color:white;
 		position:center;
@@ -577,11 +576,20 @@ div{
 }
 
 #arrowforlink{
-	animation-name: rotationarrow;
+	animation-name: arrowscale;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
 	transform: rotate(45deg);
+	position: relative;
 
 
 }
+
+@keyframes arrowscale{
+	0%{width: 40px;color: white}
+	100%{width: 70px; color: gray}
+}
+
 
 
 
