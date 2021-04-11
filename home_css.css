@@ -9,7 +9,8 @@
 	}
 	#header_title:hover{
 		text-decoration: underline;
-		color:purple;
+		color:gray;
+		
 	}	
 
 
@@ -43,7 +44,7 @@
 	#news{
 	background-image:
     linear-gradient(to bottom,black,rgba(256, 250, 252, 0.01), rgba(256, 250, 252, 0.01),black,black),
-    url('wall11.jpg');
+    url('wallpaper2.jpg');
     background-size: cover;
    
     
@@ -67,6 +68,12 @@
  
 	}
 
+	#easel_intro:hover{
+
+		top:10px;
+
+	}
+
 
 
 
@@ -85,7 +92,7 @@
 	}
 
 	body{
-		background-color:black;
+		background-color:white;
 		font-family: calibri;
 
 	}
@@ -163,15 +170,16 @@
 	}
 
 	.jumbotron{
-		background-color: black;
+		background-color: transparent;
 		border-radius:0;
-		color: white;
+		
+		margin-bottom: 0;
 		
 
 	}
 
 	hr{
-		  background-color:white;
+	
 	
 	}
 
@@ -262,6 +270,14 @@ div{
    #news:hover{
 	background-color: #ffc82d;
 }
+
+
+#cardcompanies{
+
+	background-color: transparent;
+	color:white;
+
+}
 	
 
 
@@ -335,14 +351,14 @@ div{
 	animation-name: tra_school;
 	animation-iteration-count: 1;
 	position:relative;
-	animation-duration: 0.7s;
+	animation-duration: 1s;
 }
 
 #laptop_icon{
 	animation-name: tra_laptop;
 	animation-iteration-count: 1;
 	position:relative;
-	animation-duration: 0.7s;
+	animation-duration: 1s;
 }
 
 
@@ -370,6 +386,7 @@ div{
 	animation-duration: 2s;
 	color: white;
 	background-color: white;
+	animation-delay: 0.6s;
 
 	width: 200px;
 	 height:1px;
@@ -380,9 +397,93 @@ div{
 
 @keyframes anim_dilatation{
     
+    0%{width: 200px; height:1px;}
+    50%{width: 750px; height:1px;}
+    100%{width: 200px; height:1px; color:black;}
+}
+
+#introdef_bar{
+
+	animation-name: anim_dilatationinf;
+	animation-iteration-count: infinite;
+	position:relative;
+	animation-duration: 1s;
+	color: white;
+	background-color: white;
+
+	width: 200px;
+	 height:1px;
+
+
+}
+
+@keyframes anim_dilatationinf{
+    
     0%{width: 1px; height:1px;}
     50%{width: 700px; height:1px;}
     100%{width: 200px; height:1px; color:black;}
+}
+
+
+.aii{
+	
+	animation-name: anim_tra;
+	animation-iteration-count: 1;
+	position:relative;
+	animation-duration: 0.5s;
+
+
+
+}
+.as{
+	animation-name: anim_traa;
+	animation-iteration-count: 1;
+	position:relative;
+	animation-duration: 0.5s;
+	animation-delay: 0.5s;
+	
+
+}
+.ai{
+	animation-name: anim_tra;
+	animation-iteration-count: 1;
+	position:relative;
+	animation-duration: 0.5s;
+	animation-delay: 1s;
+
+}
+
+@keyframes anim_tra{
+    
+      0%{top:250px;left:250px;}
+      50%{top:0px;left:250px;}
+    100%{top:0px;left:0px;}
+}
+
+@keyframes anim_traa{
+
+	from{color:white;}
+	to{color:transparent;}
+    
+      0%{top:250px;right:250px;color: white;}
+      50%{top:0px;right:250px;color: white;}
+      100%{top:0px;right:0px;color: white;}
+
+   
+
+
+}
+
+.imgcompany{
+
+	transition: transform .2s;
+
+}
+
+.imgcompany:hover{
+
+	transform: scale(1.25);
+
 }
 
 
