@@ -21,6 +21,7 @@
 
 
 <head>
+  <link rel="icon" type="image/png" href="ummtologopng.jpg"/>
 
 </head>
 
@@ -30,10 +31,13 @@
 <body>
 
 
-
 <div align="center" id="main" style="background-color: white;">
 
-  <span style="font-size:20px;cursor:pointer; font-family:calibri" id="head_menu"  onclick="openNav()">&#9776; <b>Main Menu</b></span>
+ 
+
+  <a href="index.html" class="" id="head_menu" style="font-size:20px;cursor:pointer; font-family:calibri; color:black"><b>Retour</b>
+
+  </a>
 
   <a href="https://www.ummto.dz/" class="offset-1" id="head_menu" style="font-size:20px;cursor:pointer; font-family:calibri; color:black"><b>UMMTO</b></a>
 
@@ -45,693 +49,30 @@
 
     <a href="https://www.ummto.dz/vie-etudiante/" class="offset-1" id="head_menu"  style="font-size:20px;cursor:pointer; font-family:calibri; color:black"><b>Vie Estudiantine</b></a>
 
-   
-
 
 </div> 
 
 
-
-
-	<div class="jumbotron col-12" align="center" id="header_bar" style="margin-bottom: 0">
-
-
-
-
-   
-       <br/>
-
-	
-
-		<div align="center" id="header_title"><h1>UMMTO Automation Institute</h1>
-		</div> 
-
-
-
-       
-       <br/>
-
-       <br/>
-
-       <br/>
-
-       <br/>
-
-
-
-
-
-		<div align="center" class="w3-container w3-center w3-animate-top">
-
-
-
-		 <div>
-
-       	<svg xmlns="http://www.w3.org/2000/svg" id="school_icon" style="width: 150; height: 150;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="school" class="svg-inline--fa fa-school fa-w-20" viewBox="0 0 640 512"><path fill="currentColor" d="M0 224v272c0 8.84 7.16 16 16 16h80V192H32c-17.67 0-32 14.33-32 32zm360-48h-24v-40c0-4.42-3.58-8-8-8h-16c-4.42 0-8 3.58-8 8v64c0 4.42 3.58 8 8 8h48c4.42 0 8-3.58 8-8v-16c0-4.42-3.58-8-8-8zm137.75-63.96l-160-106.67a32.02 32.02 0 0 0-35.5 0l-160 106.67A32.002 32.002 0 0 0 128 138.66V512h128V368c0-8.84 7.16-16 16-16h96c8.84 0 16 7.16 16 16v144h128V138.67c0-10.7-5.35-20.7-14.25-26.63zM320 256c-44.18 0-80-35.82-80-80s35.82-80 80-80 80 35.82 80 80-35.82 80-80 80zm288-64h-64v320h80c8.84 0 16-7.16 16-16V224c0-17.67-14.33-32-32-32z"/></svg>
-
-        <svg xmlns="http://www.w3.org/2000/svg" style="width: 150; height: 150;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="book-open" class="svg-inline--fa fa-book-open fa-w-18 offset-1" role="img" viewBox="0 0 576 512"><path fill="currentColor" d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"/></svg>
-
-        <svg xmlns="http://www.w3.org/2000/svg" id="laptop_icon" style="width: 150; height: 150;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="laptop-code" class="svg-inline--fa fa-laptop-code fa-w-20 offset-1" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"/></svg>
-
-        <br/>
-
-
-        
-      
-       </div>
-
-
-
-
-	
-           <br/>
-           <br/>
-
-
-
-
-        </div>
-
-		   		<h4>Référence d'informations, d'examens, et de cours internes, et externes à la faculté FGEI Automatique
-				<br/>
-		   <br/>
-           <br/>
-			  <div class="w3-bar w3-border w3-light-grey" id="threebars_icon"></div>
-			<br/>
-			<br/>
-			<br/>
-
-
-			<h4 class="aii">Automatique et Informatique Industrielle</h4>
+<div class="jumbotron" style="	font-family:calibri;
+		background-image: linear-gradient(to bottom,transparent,transparent, transparent, transparent, black),linear-gradient(to left,transparent, transparent, black), url('wall11.jpg'); background-size: cover;">
 			
-			<h4 class="as">Automatique et Systèmes</h4>
-		
-			<h4 class="ai">Automatique Industrielle</h4>
-		 </h4>
-
-
-	
-		   <br/>
-           <br/>
 
 
 
 
-	
+<div align="center">
+<div class="jumbotron col-4" align="center" style="background-color: transparent; color: white">
 
-
-
-
-
-</div>
-
-
-
-
-
-
-
-     <div class="row" style="background-color:black; color: black; margin-bottom: 0" >
-
-
-
-	    <div class="jumbotron col-3"  style="margin-left: 65px;background-color: transparent; color: white">
-    		<div class="head_subs1" id="text" align="center"><b><h1>Travail</h1></b>
-		</div>
-
-		<hr/>
-
-		<div><p class="w3-container w3-center w3-animate-top" id="text_slogans">Les éntités travaillant à la vie de l'UMMTO Automatique, à savoir, les étudiants, les professeurs, et les ATS, sont en constantes connexions éxigée pour le maintien vital de la FGEI, ainsi avec la contribution des département voisins, nos confréres informaticiens, électroniciens, et éléctrotechniciens.
-		<br/>
-		<br/>
-		Le travail continue est à l'inné de l'étudiant, ce denier étant la cellule incontournable du présent, et du futur de l'évolution.
-		  </p></div>
-
-		<br/>
-    </div>
-
-
-
-
-    	    <div class="jumbotron col-3 offset-1" style="background-color: transparent; color: white">
-    		<div class="head_subs2" id="text" align="center"><b><h1>Initiation</h1></b>
-		</div>
-
-		<hr/>
-
-		<div><p class="w3-container w3-center w3-animate-top" id="text_slogans">La formation offre des moyens intellectuels pour contstruire en aval des ingérnieurs avec des capacités suffisantes à sont 
-		auto-apprentissage ainsi à l'intégration de la vie professionnelle et pratique. <br/><br/>
-
-         L'étudiant doit avoir en sa conscience que l'environnement est toujours ouvert à des découvertes et d'eventuelles améliorations, 
-     cela dit qu'une connexion entre lui et un professeur doit etre indéniable pendant l'intiation, afin d'aquerir un état et esprit d'ingénieur complet</p></div>
-
-		<br/>
-    </div>
-
-
-
-    	    <div class="jumbotron col-3 offset-1" style="background-color: transparent; color: white" >
-    		<div class="head_subs3" id="" align="center"><b><h1>Déontologie</h1></b>
-		</div>
+	<div ><h1>Modules</h1></div>
 	<hr/>
-		<div><p class="w3-container w3-center w3-animate-top" id="text_slogans"> 	Pendant la formation, l'étudiant découvrira le triangle déontologique, dont les sommets proncipaux sont, les étudiants, les professeurs et les ATS, les segments reliant ces sommets sont les différentes activités qui les relient, tout en ayant des communications ascendantes et descendantes, ainsi horizontales fortement dynamiques.
-
-		</p>
-		</div>
-
-	
-
-		
-    </div>
-        
-
-
-
-</div>
-
-  
-
-<div class="under_head">
-
-
-<div class="jumbotron col-12" align="center"  style="background-image: linear-gradient(to bottom, black,transparent,transparent, transparent, transparent, black), url('wall10.jpg'); background-size: cover;margin-bottom: 0">
-
-
-  <div class="" style="font-family: calibri; font-size: 30px; color:white; "><b><h1>Définition Introductive</h1></b></div>
-
- <div class="w3-bar w3-border w3-black" id="introdef_bar" style="background-color: black"></div>
-
-  <br/>
-  <br/>
-
-
-
-	<svg style="margin-bottom: 50px; " id="easel_intro"  xmlns="http://www.w3.org/2000/svg" width="200" height="200"  fill="currentColor" class="bi bi-easel" viewBox="0 0 16 16">
-  <path d="M8 0a.5.5 0 0 1 .473.337L9.046 2H14a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1.85l1.323 3.837a.5.5 0 1 1-.946.326L11.092 11H8.5v3a.5.5 0 0 1-1 0v-3H4.908l-1.435 4.163a.5.5 0 1 1-.946-.326L3.85 11H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h4.954L7.527.337A.5.5 0 0 1 8 0zM2 3v7h12V3H2z"/>
-</svg>
-
-
-<br/>
-
-
-	<iframe class=""  width="560" height="315" src="https://www.youtube.com/embed/xowQkxFXTNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-<div class="jumbotron col-7" style="background-color: transparent; background-size: cover;color:white">
-
-	<div class="w3-bar w3-border w3-black" id="introdef_bar" style="background-color: black"></div>
-	<br/>
-<br/>
-
-
-<h7>L'<b>Automatique</b> est la science des systèmes. Ce dernier terme doit être entendu ici non pas comme une totalité close sur elle-même, mais au contraire comme un ensemble d'éléments en interaction, ensemble qui est lui-même en interaction avec un environnement constitué d'autres systèmes. Cette science a une composante théorique constituée des outils de compréhension de la structure des systèmes et de leur comportement, et une composante pratique car l'automatique a pour fin de faire fonctionner des systèmes en minimisant l'intervention humaine pour éviter toutes sortes de tâches fastidieuses, répétitives ou dangereuses, et donc d'en permettre l'automatisation.</h7>
-
-
-<br/>
-<br/>
-<div class="w3-bar w3-border w3-black" id="introdef_bar" style="background-color: black"></div>
-
-</div>
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="jumbotron" id="news" align="center" style="margin-bottom: 0">
-
-
-	
-
-
-  <div class="jumbotron col-4" style="background-color:transparent;">
-	<div style="color:white"><h1>News</h1>
-	</div>
-       <div class="w3-bar w3-border w3-black" id="newsbar1" style="background-color: black"></div>
-       <br/>
-       <div class="w3-bar w3-border w3-black" id="newsbar2" style="background-color: black"></div>
-       <br/>
-       <div class="w3-bar w3-border w3-black" id="newsbar3" style="background-color: black"></div>
-</div>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color: transparent;" >
-
-
-
-
-
-
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-
-
-
-  <div class="carousel-inner">
-
-    <div class="carousel-item active">
-
-
-
-      
-      <div class="" align="center" ><h4 style="color:white">Webinar: Professeur Maamar BETTAYEB : Automatic Control: State of the Art and Future Directions </h4></div>
-
-          <br/>
-           <br/>
-            <br/>
-
-
-          <div align="center">
-
-      <iframe width="560" height="315"  src="https://www.youtube.com/embed/XdVnscxoOCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <br/>
-      <br/>
-
-
-      <div  class="jumbotron col-4" style="background-color: transparent; color:white" ><p> Webinaire sous le thème Automatic Control: State of the Art and Future Directions, organisé par la faculté du génie électrique et d'informatique et le Laboratoire de recherche L2CSP de l'université Mouloud Mammeri de Tizi-Ouzou.</p></div>
-
-  </div>
-
-
-   <br/>
-    <br/>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-    <div class="carousel-item">
-            
-      <div class="" align="center" ><h4 style="color:white">Ahmed TESSA: Recteur de l'UMMTO </h4></div>
-
-          <br/>
-           <br/>
-            <br/>
-
-
-          <div align="center">
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/Qa0kP5Wg2iY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-      <div  class="jumbotron col-4" style="background-color: transparent; color:white" ><p >Plus de 9000 nouveaux bacheliers inscrits à l’université Mouloud Mammeri de Tizi Ouzou pour cette année, le recteur de l’université professeur Ahmed Tessa nous parle sur les préparatifs, le recrutement des enseignants et les grèves a répétitions a l’UMMTO.</p></div>
-
-  </div>
-
-
-   <br/>
-    <br/>
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="carousel-item">
-            <div class="" align="center" ><h4 style="color:white"> Lancement du laboratoire de dépistage du Covid 19 à l'UMMTO </h4></div>
-
-          <br/>
-           <br/>
-            <br/>
-
-
-          <div align="center">
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/K6d6ux9sKEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-         <div  class="jumbotron col-4" style="background-color: transparent; color:white" ><p >Le Recteur de l'université Mouloud Mammeri de Tizi-Ouzou, le professeur Smail DAOUDI, en direct sur Berbère Télévision au sujet du lancement officiel du laboratoire de dépistage du Covid-19 à l'UMMTO.</p></div>
-    </div>
-  </div>
-
-
-
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-   
-
-
-		
-</div>
- 
-
-
-	
 	
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="jumbotron" align="center">
-
- <div class="jumbotron col-4" style="background-color:transparent;">
-	<div style=""><h1>Espace pour l'étudiant</h1>
-	</div>
-	<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-      
-
-</div>
 </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-     <div class="row" style="background-color:transparent; color: black; margin-bottom: 0" >
-
-
-
-	    <div class="jumbotron col-3"  style="margin-left: 65px;background-color: transparent; color: black">
-    		<div class="head_subs1" id="text" align="center"><b><h1>Cours & TD</h1></b>
-		</div>
-
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<div><p class="w3-container w3-center w3-animate-top" >le site récolte le plus de cours possibles faits en présentielle par les étudiants, ainsi les différentes expositions des professeurs.
-		<br/>
-		<br/>
-		Faites attention, ces cours peuvent changer d'une année à une autre, tout dépend de l'activité de chaque professeur, veuillez donc vous en assurer avant, si ce cas est l'apparent, ces derniers peuvent etre exploités comme une documentation en plus.
-		  </p></div>
-
-		<br/>
-    </div>
-
-
-
-
-    	    <div class="jumbotron col-3 offset-1" style="background-color: transparent; color: color: black">
-    		<div class="head_subs2" id="text" align="center"><b><h1>Travaux Pratiques</h1></b>
-		</div>
-
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-		<div><p class="w3-container w3-center w3-animate-top" >Meme chose proférée dans la partie cours, les TP ont un changement plus potent que les cours ou les TD, mais peuvent servir pour d'éventuelles pratiques et réalisations à court et à moyen terme.<br/><br/>
-
-         Les TP sont généralement accompagnés de correction, si le cas est défavrable, veuillez consultez les concepteurs du site, dont des anciens étudiants qui peuvent, soit vous fournir la correction, ou vous donner main pour la résolution.</p></div>
-
-		<br/>
-    </div>
-
-
-
-    	    <div class="jumbotron col-3 offset-1" style="background-color: transparent; color: black" >
-    		<div class="head_subs3" id="" align="center"><b><h1>Réalisations</h1></b>
-		</div>
-	<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-		<div><p class="w3-container w3-center w3-animate-top" > Au cours de l'évolution du site, des réalisations et des projets seront publiés, celà pourrait aider l'étudiant à s'orienter occasionellement à apprendre de différentes approches et méthodes de réalisations.  
-
-		</p>
-		</div>
-
-	
-
-		
-    </div>
-        
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row"><!--Row tenant le tout-->
-
-
-
-<div class="row col-4">
-	
-
-	<div class="jumbotron col-12" id="presentation_" style="margin-bottom: 0"> 
-		<div class="" id="text"><b>UMMTO Automatique</b>
-
-			<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tag" class="svg-inline--fa fa-tag fa-w-16 offset-1" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M0 252.118V48C0 21.49 21.49 0 48 0h204.118a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882L293.823 497.941c-18.745 18.745-49.137 18.745-67.882 0L14.059 286.059A48 48 0 0 1 0 252.118zM112 64c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48z"/></svg>
-
-		</div>
-
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<br/>
-
-		<div class="desc-text">Le département d'<b>Automatique</b> (Faculté du Génie Eléctrique et d'Informatique, UMMTO) Propose l'ensemble des disciplines et
-			éthiques en contribution avec la formation de futures générations investies au service de l'évolution en employant des moyens intellectuels
-			et technologiques.
-	</div>
-
-	<br/>
-
-	<div class="desc-text">
-			<b>Les éminents domaines qu'éxerce la faculté :</b> La Commande et Théorie du Contrôle des Systèmes Dynamiques, La Robotique La Programmation, l'Optimisation et Recherche Opérationelle, le Traitement du Signal, la Supervision Industrielle, Intelligence Artificielle, Électrotechnique, Électronique.
-		</div>
-
-	</div>
-
-
-
-
-
-
-		<div class="jumbotron col-12" id="presentation_" style="margin-top: 0"> 
-
-
-		<div class="" id="text"><b>Quelques domaines inclus dans la formation</b>
-		</div>
-
-		<br/>
-<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-
-
-
-
-
-
-			<div class="" id="text"><b>Nanotechnologies</b>
-		</div>
-
-		<br/>
-
-
-	<div class="desc-text">
-			Les <b>nanosciences</b> et <b>nanotechnologies</b> ou <b>NST</b>, peuvent être définies comme l’ensemble des
-études et des procédés de fabrication et de manipulation de structures (physiques, chimiques
-ou biologiques), de dispositifs et de systèmes matériels à l’échelle du nanomètre (nm), ce qui
-est l’ordre de grandeur de la distance entre deux atomes.
-Les nanosciences s’intéressent d’une part, aux nouveaux phénomènes au niveau des nano
-objets, et d’autre part, aux interactions entre objets nanométriques. Les travaux des chercheurs
-vont de la réalisation, de la synthèse chimique et de l’étude du nano-objet individuel, pour
-remonter à ses propriétés intrinsèques, à la réalisation et à l’étude d’assemblées de nano objets
-en interaction ou non suivant la densité d’intégration.
-<br/><br/>
-<b>Proféré par: Dr. L. CHIBANE-BOUDJELLAL</b>
-		</div>
-
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-			<div class="" id="text"><b>Véhicules Électriques</b>
-		</div>
-
-		<br/>
-
-
-	<div class="desc-text">
-Lorsque le véhicule roule sur la voie de guidage, la propulsion interne et les forces de
-suspension ainsi que des perturbations externes agissent sur la carrosserie du véhicule. En
-outre, la motion du véhicule affecte les passagers et les marchandises transportées sur le
-véhicule. L'analyse dynamique de cette interaction des forces et des mouvements fait l'objet
-de la dynamique des véhicules. Cette analyse nécessite un traitement intégré de tous les
-systèmes composants interagissant les uns avec les autres.
-<br/><br/>
-<b>Proféré par: Mr. R. MELLAH</b>
-		</div>
-
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-					<div class="" id="text"><b>Ondes et Vibrations</b>
-		</div>
-
-		<br/>
-
-
-	<div class="desc-text">
-On rencontre les vibrations dans tout les domaines, on les classe en différents types, mécaniques, élastiques, acoustiques, etc..
-<br/><br/>
-Quand un corps est excité d'une façon mécaniquen ou par un rayonnement, on observe la réponse du système sous forme d'un mouvement autour de la position
-d'équilibre, cette réponse est la coordonnée généralisée et la vitesse correspondante est la vitesse générale, la formation sur ce module vous fournira les outils mathématiques afin de pouvoir exprimer le comportement des systèmes dynamique par des système d'équations qu'on appellera utlérieurement par des <b> Représentations d'état</b> 
-<br/><br/>
-<b>Proféré par: Mr. BOURAHLA</b>
-		</div>
-
-
-
-	<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<br/><br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-					<div class="" id="text"><b>Optimisation et Recherche Opérationelle</b>
-		</div>
-
-		<br/>
-
-
-	<div class="desc-text">
-L'<b>Optimisation</b>, sous ses différents paradigmes, représente la recherche d'un minimum ou d'un maximum d'une évolution, autrement dit, dans un système de gestion de produits, dans un système physique, informatique, ou biologique, elle consiste, grace à de différents algorithmes et méthodes numériques, à modéliser et analyser, ainsi trouver des solution envisageables pour des problèmes avec ou sans contraites (internes ou externes)
-<br/><br/>
-
-Au cours de la formation, en commançant par une initiation aux stucture récursives et aux méthodes de descentes, l'étudiant pourra découvrir les mécanismes et procédure, ainsi les avantages de chacune des différentes méthodes essentielles à l'optimisation et recherche opérationnelle, pour objectif de résoudre des système <b>Lineaires</b> ou <b>Non-Lineaires</b>.
-<br/><br/>
-<b>Module Dirigé par: Dr. N. DJEGHALI</b>
 		</div>
 
 
@@ -740,30 +81,6 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
 
 
 
-	<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<br/><br/>
-
-
-<div>Découvrez les différents modules enseignés<a href="modules.html"><b>
-	<p id="ici_link_modules">ici
-	</p></b></a>
-</div>
-
-
-
-    <!--arrow-->
-	    <svg xmlns="http://www.w3.org/2000/svg" width="110" height="110" id="arrowforlink" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="reply" class="svg-inline--fa fa-reply fa-w-16 offset-1" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M8.309 189.836L184.313 37.851C199.719 24.546 224 35.347 224 56.015v80.053c160.629 1.839 288 34.032 288 186.258 0 61.441-39.581 122.309-83.333 154.132-13.653 9.931-33.111-2.533-28.077-18.631 45.344-145.012-21.507-183.51-176.59-185.742V360c0 20.7-24.3 31.453-39.687 18.164l-176.004-152c-11.071-9.562-11.086-26.753 0-36.328z"/></svg>
-	</div>
-
-
-
-
-
-
-	    </div><!--End of (Domaines) Jumbotron-->
-
-	
 
 
 
@@ -780,27 +97,9 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
 
 
 
-<div class="row col-4">
-
-
-
-<div class="jumbotron offset-1 col-12" style="">
-
-
-	<div class="" id="text"><b>Documentation</b>
-
-		<svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="paste" class="svg-inline--fa fa-paste fa-w-14 offset-1" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M128 184c0-30.879 25.122-56 56-56h136V56c0-13.255-10.745-24-24-24h-80.61C204.306 12.89 183.637 0 160 0s-44.306 12.89-55.39 32H24C10.745 32 0 42.745 0 56v336c0 13.255 10.745 24 24 24h104V184zm32-144c13.255 0 24 10.745 24 24s-10.745 24-24 24-24-10.745-24-24 10.745-24 24-24zm184 248h104v200c0 13.255-10.745 24-24 24H184c-13.255 0-24-10.745-24-24V184c0-13.255 10.745-24 24-24h136v104c0 13.2 10.8 24 24 24zm104-38.059V256h-96v-96h6.059a24 24 0 0 1 16.97 7.029l65.941 65.941a24.002 24.002 0 0 1 7.03 16.971z"/></svg>
-		</div>
-
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-
-
-
-
-
-
-	  <div class="card" align="center">
+<div class="jumbotron" align="center" style="margin-left: 60px">
+  <div class="row">
+    <div class="card" align="center">
     <div class="card-body">
       <h4 class="card-title">Optimisation</h4>
       <p class="card-text">Optimisation et recherche Opérationelle</p>
@@ -838,8 +137,8 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
 
       <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M223.99908,224a32,32,0,1,0,32.00782,32A32.06431,32.06431,0,0,0,223.99908,224Zm214.172-96c-10.877-19.5-40.50979-50.75-116.27544-41.875C300.39168,34.875,267.63386,0,223.99908,0s-76.39066,34.875-97.89653,86.125C50.3369,77.375,20.706,108.5,9.82907,128-6.54984,157.375-5.17484,201.125,34.958,256-5.17484,310.875-6.54984,354.625,9.82907,384c29.13087,52.375,101.64652,43.625,116.27348,41.875C147.60842,477.125,180.36429,512,223.99908,512s76.3926-34.875,97.89652-86.125c14.62891,1.75,87.14456,10.5,116.27544-41.875C454.55,354.625,453.175,310.875,413.04017,256,453.175,201.125,454.55,157.375,438.171,128ZM63.33886,352c-4-7.25-.125-24.75,15.00391-48.25,6.87695,6.5,14.12891,12.875,21.88087,19.125,1.625,13.75,4,27.125,6.75,40.125C82.34472,363.875,67.09081,358.625,63.33886,352Zm36.88478-162.875c-7.752,6.25-15.00392,12.625-21.88087,19.125-15.12891-23.5-19.00392-41-15.00391-48.25,3.377-6.125,16.37891-11.5,37.88478-11.5,1.75,0,3.875.375,5.75.375C104.09864,162.25,101.84864,175.625,100.22364,189.125ZM223.99908,64c9.50195,0,22.25586,13.5,33.88282,37.25-11.252,3.75-22.50391,8-33.88282,12.875-11.377-4.875-22.62892-9.125-33.88283-12.875C201.74516,77.5,214.49712,64,223.99908,64Zm0,384c-9.502,0-22.25392-13.5-33.88283-37.25,11.25391-3.75,22.50587-8,33.88283-12.875C235.378,402.75,246.62994,407,257.8819,410.75,246.25494,434.5,233.501,448,223.99908,448Zm0-112a80,80,0,1,1,80-80A80.00023,80.00023,0,0,1,223.99908,336ZM384.6593,352c-3.625,6.625-19.00392,11.875-43.63479,11,2.752-13,5.127-26.375,6.752-40.125,7.75195-6.25,15.00391-12.625,21.87891-19.125C384.7843,327.25,388.6593,344.75,384.6593,352ZM369.65538,208.25c-6.875-6.5-14.127-12.875-21.87891-19.125-1.625-13.5-3.875-26.875-6.752-40.25,1.875,0,4.002-.375,5.752-.375,21.50391,0,34.50782,5.375,37.88283,11.5C388.6593,167.25,384.7843,184.75,369.65538,208.25Z"/>
 
-    <br/>
-      <a href="#" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
+   
+      <a href="nanotechs.html" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
     
     </div>
   </div>
@@ -861,7 +160,7 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="microchip" class="svg-inline--fa fa-microchip fa-w-16" id="icon_module" role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M416 48v416c0 26.51-21.49 48-48 48H144c-26.51 0-48-21.49-48-48V48c0-26.51 21.49-48 48-48h224c26.51 0 48 21.49 48 48zm96 58v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42V88h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zM30 376h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6z"/></svg>
 
       <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M416 48v416c0 26.51-21.49 48-48 48H144c-26.51 0-48-21.49-48-48V48c0-26.51 21.49-48 48-48h224c26.51 0 48 21.49 48 48zm96 58v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42V88h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zm0 96v12a6 6 0 0 1-6 6h-18v6a6 6 0 0 1-6 6h-42v-48h42a6 6 0 0 1 6 6v6h18a6 6 0 0 1 6 6zM30 376h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6zm0-96h42v48H30a6 6 0 0 1-6-6v-6H6a6 6 0 0 1-6-6v-12a6 6 0 0 1 6-6h18v-6a6 6 0 0 1 6-6z"/>
-      <br/>
+      
       <a href="#" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
 
     </div>
@@ -880,7 +179,7 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
       <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M475.115 163.781L336 252.309v-68.28c0-18.916-20.931-30.399-36.885-20.248L160 252.309V56c0-13.255-10.745-24-24-24H24C10.745 32 0 42.745 0 56v400c0 13.255 10.745 24 24 24h464c13.255 0 24-10.745 24-24V184.029c0-18.917-20.931-30.399-36.885-20.248z"/>
 
 
-     <a href="#" class="card-link"><b><div type="button" class="btn btn-default	" style="border-radius:0px">Accéder</div></b></a>
+     <a href="#" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
       
     </div>
 
@@ -892,61 +191,6 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
 
 
 
-</div>
-
-
-
-
-
-
-
-</div>
-
-<div class="row col-4" style="margin-left: 0px"  >
-
-	<div class="jumbotron col-12 offset-1" style="" >
-
-	<div class="" id="text"><b>Liés à UMMTO Automatique</b>
-
-		
-		<svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hands-helping" class="svg-inline--fa fa-hands-helping fa-w-20 offset-1" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M488 192H336v56c0 39.7-32.3 72-72 72s-72-32.3-72-72V126.4l-64.9 39C107.8 176.9 96 197.8 96 220.2v47.3l-80 46.2C.7 322.5-4.6 342.1 4.3 357.4l80 138.6c8.8 15.3 28.4 20.5 43.7 11.7L231.4 448H368c35.3 0 64-28.7 64-64h16c17.7 0 32-14.3 32-32v-64h8c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24zm147.7-37.4L555.7 16C546.9.7 527.3-4.5 512 4.3L408.6 64H306.4c-12 0-23.7 3.4-33.9 9.7L239 94.6c-9.4 5.8-15 16.1-15 27.1V248c0 22.1 17.9 40 40 40s40-17.9 40-40v-88h184c30.9 0 56 25.1 56 56v28.5l80-46.2c15.3-8.9 20.5-28.4 11.7-43.7z"/></svg>
-		</div>
-		<div class="w3-bar w3-border w3-black" style="background-color: black"></div>
-
-		<div class="w3-bar  w3-black" style="background-color: black"></div>	
-		<br/>
-
-	<iframe class="col-12" width="500" height="300" src="https://www.youtube.com/embed/UBlBKjx1xwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/X1siWXje1Jk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/_o-Q0Cwf3lM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/XdVnscxoOCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="w3-bar w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/-07aUPTnOM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/xb0Vz-xoSE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/C9Bq9M8IPMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-	<iframe class="col-12" style="margin-top: 12px" width="500" height="300" src="https://www.youtube.com/embed/bXtY015py7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="w3-bar  w3-black" id="introdef_barvideos" style="background-color: black"></div>
-
-
-	</div>
-	</div>
-
-
-</div>
 
 
 
@@ -955,193 +199,207 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
 
 
 
-<div align="center" class="container col-12" style="background-color: black; background-size: cover;">
 
-<div class="jumbotron col-4" style="background-color:transparent;">
-	<div style="color:white"><h1>Liens utiles</h1></div>
-       <hr/>
-</div>
-
-
-
-
-<div class="row" style="">
-
-
-
-<div class="jumbotron col-3" style="background-color:transparent;">
-	    <div class="card "align="center" id="cardcompanies">
+      <div class="card"align="center">
     <div class="card-body">
-      <h4 class="card-title">ARN</h4>
-      <p class="card-text">Algerian Research Network</p>
-      <br/>
+      <h4 class="card-title">Traitement du Signal Numérique</h4>
+      <p class="card-text">Théorie et études des signaux discrets</p>
 
-     <image class="imgcompany" src="téléchargement.jpg" style="width: 200px; height: 150px" ></image>
-
-     	<br/>
-     	<br/>
+     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="signal" class="svg-inline--fa fa-signal fa-w-20" id="icon_module" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z"/></svg>
 
 
+    <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z"/>
 
-     <a href="https://asrenorg.net/?q=content/algeria-0" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
+
+     <a href="signal_processing.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
       
     </div>
 
   </div>
-</div>
 
 
 
 
 
-<div class="jumbotron col-3" style="background-color:transparent;">
-	    <div class="card "align="center" id="cardcompanies">
+
+
+
+
+
+        <div class="card"align="center">
     <div class="card-body">
-      <h4 class="card-title">MESRS</h4>
-      <p class="card-text">Ministère de l'Enseignement Supérieur et de la Recherche Scientifique</p>
+      <h4 class="card-title">Robotique</h4>
+      <p class="card-text">Eléments de la Robotique</p>
 
-     <image class="imgcompany" src="EcolesNationales.jpg" style="width: 200px; height: 150px" ></image>
-
-     	<br/>
-     	<br/>
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="robot" class="svg-inline--fa fa-robot fa-w-20" id="icon_module" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M32,224H64V416H32A31.96166,31.96166,0,0,1,0,384V256A31.96166,31.96166,0,0,1,32,224Zm512-48V448a64.06328,64.06328,0,0,1-64,64H160a64.06328,64.06328,0,0,1-64-64V176a79.974,79.974,0,0,1,80-80H288V32a32,32,0,0,1,64,0V96H464A79.974,79.974,0,0,1,544,176ZM264,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,264,256Zm-8,128H192v32h64Zm96,0H288v32h64ZM456,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,456,256Zm-8,128H384v32h64ZM640,256V384a31.96166,31.96166,0,0,1-32,32H576V224h32A31.96166,31.96166,0,0,1,640,256Z"/></svg>
 
 
+   <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M32,224H64V416H32A31.96166,31.96166,0,0,1,0,384V256A31.96166,31.96166,0,0,1,32,224Zm512-48V448a64.06328,64.06328,0,0,1-64,64H160a64.06328,64.06328,0,0,1-64-64V176a79.974,79.974,0,0,1,80-80H288V32a32,32,0,0,1,64,0V96H464A79.974,79.974,0,0,1,544,176ZM264,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,264,256Zm-8,128H192v32h64Zm96,0H288v32h64ZM456,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,456,256Zm-8,128H384v32h64ZM640,256V384a31.96166,31.96166,0,0,1-32,32H576V224h32A31.96166,31.96166,0,0,1,640,256Z"/>
 
-     <a href="https://www.mesrs.dz/" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
+
+     <a href="robotics.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
       
     </div>
 
   </div>
-</div>
 
 
 
 
 
-<div class="jumbotron col-3" style="background-color:transparent;">
-	    <div class="card "align="center" id="cardcompanies">
+
+
+
+
+
+
+
+        <div class="card"align="center">
     <div class="card-body">
-      <h4 class="card-title">Erasmus+</h4>
-      <p class="card-text">European Region Action Scheme for the Mobility of University Students</p>
+      <h4 class="card-title">Véhicules Eléctriques</h4>
+      <p class="card-text">Prérequis pour la science des EV</p>
+
+   <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="charging-station" class="svg-inline--fa fa-charging-station fa-w-18" id="icon_module" role="img" viewBox="0 0 576 512"><path fill="currentColor" d="M336 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h320c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm208-320V80c0-8.84-7.16-16-16-16s-16 7.16-16 16v48h-32V80c0-8.84-7.16-16-16-16s-16 7.16-16 16v48h-16c-8.84 0-16 7.16-16 16v32c0 35.76 23.62 65.69 56 75.93v118.49c0 13.95-9.5 26.92-23.26 29.19C431.22 402.5 416 388.99 416 372v-28c0-48.6-39.4-88-88-88h-8V64c0-35.35-28.65-64-64-64H96C60.65 0 32 28.65 32 64v352h288V304h8c22.09 0 40 17.91 40 40v24.61c0 39.67 28.92 75.16 68.41 79.01C481.71 452.05 520 416.41 520 372V251.93c32.38-10.24 56-40.17 56-75.93v-32c0-8.84-7.16-16-16-16h-16zm-283.91 47.76l-93.7 139c-2.2 3.33-6.21 5.24-10.39 5.24-7.67 0-13.47-6.28-11.67-12.92L167.35 224H108c-7.25 0-12.85-5.59-11.89-11.89l16-107C112.9 99.9 117.98 96 124 96h68c7.88 0 13.62 6.54 11.6 13.21L192 160h57.7c9.24 0 15.01 8.78 10.39 15.76z"/></svg>
 
 
-     <image class="imgcompany" src="unflag.jpg" style="width: 200px; height: 150px" ></image>
-
-     	<br/>
-     	<br/>
+   <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M336 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h320c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zm208-320V80c0-8.84-7.16-16-16-16s-16 7.16-16 16v48h-32V80c0-8.84-7.16-16-16-16s-16 7.16-16 16v48h-16c-8.84 0-16 7.16-16 16v32c0 35.76 23.62 65.69 56 75.93v118.49c0 13.95-9.5 26.92-23.26 29.19C431.22 402.5 416 388.99 416 372v-28c0-48.6-39.4-88-88-88h-8V64c0-35.35-28.65-64-64-64H96C60.65 0 32 28.65 32 64v352h288V304h8c22.09 0 40 17.91 40 40v24.61c0 39.67 28.92 75.16 68.41 79.01C481.71 452.05 520 416.41 520 372V251.93c32.38-10.24 56-40.17 56-75.93v-32c0-8.84-7.16-16-16-16h-16zm-283.91 47.76l-93.7 139c-2.2 3.33-6.21 5.24-10.39 5.24-7.67 0-13.47-6.28-11.67-12.92L167.35 224H108c-7.25 0-12.85-5.59-11.89-11.89l16-107C112.9 99.9 117.98 96 124 96h68c7.88 0 13.62 6.54 11.6 13.21L192 160h57.7c9.24 0 15.01 8.78 10.39 15.76z"/>
 
 
-
-     <a href="https://info.erasmusplus.fr/" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
+     <a href="electricalvehicles.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
       
     </div>
 
   </div>
-</div>
 
 
 
 
 
 
-<div class="jumbotron col-3" style="background-color:transparent;">
-	    <div class="card "align="center" id="cardcompanies">
+
+
+
+
+
+
+
+
+
+
+
+          <div class="card"align="center">
     <div class="card-body">
-      <h4 class="card-title">TCF</h4>
-      <p class="card-text">Test de Conaissance Du français</p>
+      <h4 class="card-title">Architecture des Systèmes Automatisés</h4>
+      <p class="card-text">Etat de l'art de l'Automatique</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sitemap" class="svg-inline--fa fa-sitemap fa-w-20" id="icon_module" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M128 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32zm-24-80h192v48h48v-48h192v48h48v-57.59c0-21.17-17.23-38.41-38.41-38.41H344v-64h40c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H256c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h40v64H94.41C73.23 224 56 241.23 56 262.41V320h48v-48zm264 80h-96c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32zm240 0h-96c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32z"/></svg>
 
 
-     <image class="imgcompany" src="tcf.jpg" style="width: 200px; height: 150px" ></image>
-
-     	<br/>
-     	<br/>
-     	<br/>
+<path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M128 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32zm-24-80h192v48h48v-48h192v48h48v-57.59c0-21.17-17.23-38.41-38.41-38.41H344v-64h40c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32H256c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h40v64H94.41C73.23 224 56 241.23 56 262.41V320h48v-48zm264 80h-96c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32zm240 0h-96c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-96c0-17.67-14.33-32-32-32z"/>
 
 
-
-     <a href="https://apprendre.tv5monde.com/fr/tcf" class="card-link"><b><div type="button" class="btn btn-default" style="border-radius:0px">Accéder</div></b></a>
+     <a href="systemsarchitecture.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
       
     </div>
 
   </div>
-</div>
+
+
+            <div class="card"align="center">
+    <div class="card-body">
+      <h4 class="card-title">Installations Electriques</h4>
+      <p class="card-text">Normes et élements des Installations Electriques</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plug" class="svg-inline--fa fa-plug fa-w-12" id="icon_module" role="img" viewBox="0 0 384 512"><path fill="currentColor" d="M320,32a32,32,0,0,0-64,0v96h64Zm48,128H16A16,16,0,0,0,0,176v32a16,16,0,0,0,16,16H32v32A160.07,160.07,0,0,0,160,412.8V512h64V412.8A160.07,160.07,0,0,0,352,256V224h16a16,16,0,0,0,16-16V176A16,16,0,0,0,368,160ZM128,32a32,32,0,0,0-64,0v96h64Z"/></svg>
+
+<path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M320,32a32,32,0,0,0-64,0v96h64Zm48,128H16A16,16,0,0,0,0,176v32a16,16,0,0,0,16,16H32v32A160.07,160.07,0,0,0,160,412.8V512h64V412.8A160.07,160.07,0,0,0,352,256V224h16a16,16,0,0,0,16-16V176A16,16,0,0,0,368,160ZM128,32a32,32,0,0,0-64,0v96h64Z"/>
+
+
+     <a href="electricalinstallations.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
+      
+    </div>
+
+  </div>
 
 
 
-</div><!--End Row-->
+            <div class="card"align="center">
+    <div class="card-body">
+      <h4 class="card-title">Eléctronique Appliquée</h4>
+      <p class="card-text">Etude de Transistors, Amplificateur, et Filtres</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="memory" class="svg-inline--fa fa-memory fa-w-20" id="icon_module" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M640 130.94V96c0-17.67-14.33-32-32-32H32C14.33 64 0 78.33 0 96v34.94c18.6 6.61 32 24.19 32 45.06s-13.4 38.45-32 45.06V320h640v-98.94c-18.6-6.61-32-24.19-32-45.06s13.4-38.45 32-45.06zM224 256h-64V128h64v128zm128 0h-64V128h64v128zm128 0h-64V128h64v128zM0 448h64v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h64v-96H0v96z"/></svg>
+
+<path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M640 130.94V96c0-17.67-14.33-32-32-32H32C14.33 64 0 78.33 0 96v34.94c18.6 6.61 32 24.19 32 45.06s-13.4 38.45-32 45.06V320h640v-98.94c-18.6-6.61-32-24.19-32-45.06s13.4-38.45 32-45.06zM224 256h-64V128h64v128zm128 0h-64V128h64v128zm128 0h-64V128h64v128zM0 448h64v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h128v-26.67c0-8.84 7.16-16 16-16s16 7.16 16 16V448h64v-96H0v96z"/>
+
+     <a href="appliedelectronics.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
+      
+    </div>
+
+  </div>
+
+
+
+              <div class="card"align="center">
+    <div class="card-body">
+      <h4 class="card-title">Commande Avancée</h4>
+      <p class="card-text">Commande Adaptative et Optimale</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="space-shuttle" class="svg-inline--fa fa-space-shuttle fa-w-20"  id="icon_module" role="img" viewBox="0 0 640 512"><path fill="currentColor" d="M592.604 208.244C559.735 192.836 515.777 184 472 184H186.327c-4.952-6.555-10.585-11.978-16.72-16H376C229.157 137.747 219.403 32 96.003 32H96v128H80V32c-26.51 0-48 28.654-48 64v64c-23.197 0-32 10.032-32 24v40c0 13.983 8.819 24 32 24v16c-23.197 0-32 10.032-32 24v40c0 13.983 8.819 24 32 24v64c0 35.346 21.49 64 48 64V352h16v128h.003c123.4 0 133.154-105.747 279.997-136H169.606c6.135-4.022 11.768-9.445 16.72-16H472c43.777 0 87.735-8.836 120.604-24.244C622.282 289.845 640 271.992 640 256s-17.718-33.845-47.396-47.756zM488 296a8 8 0 0 1-8-8v-64a8 8 0 0 1 8-8c31.909 0 31.942 80 0 80z"/></svg>
+
+<path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M592.604 208.244C559.735 192.836 515.777 184 472 184H186.327c-4.952-6.555-10.585-11.978-16.72-16H376C229.157 137.747 219.403 32 96.003 32H96v128H80V32c-26.51 0-48 28.654-48 64v64c-23.197 0-32 10.032-32 24v40c0 13.983 8.819 24 32 24v16c-23.197 0-32 10.032-32 24v40c0 13.983 8.819 24 32 24v64c0 35.346 21.49 64 48 64V352h16v128h.003c123.4 0 133.154-105.747 279.997-136H169.606c6.135-4.022 11.768-9.445 16.72-16H472c43.777 0 87.735-8.836 120.604-24.244C622.282 289.845 640 271.992 640 256s-17.718-33.845-47.396-47.756zM488 296a8 8 0 0 1-8-8v-64a8 8 0 0 1 8-8c31.909 0 31.942 80 0 80z"/>
+
+     <a href="adaptivecontrol.html" class="card-link"><b><div type="button" class="btn btn-default " style="border-radius:0px">Accéder</div></b></a>
+      
+    </div>
+
+  </div>
 
 
 
 
 
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="jumbotron" style="background-image: linear-gradient(to bottom, black,transparent, transparent,transparent, transparent, transparent, black), url('wall11.jpg'); background-size: cover;">
-
-
-<br/>
-
-	<div class="" align="center" style="color:white"><h2> Laboratoires du Département</h2></div>
-
-	<hr/>
-
-	<br/>
-	<br/>
-
-	<div align="center">
-
-	<div class="row col-12">
-
-		
-
-	<div class="labo offset-1" ><p><a href="http://labs.ummto.dz/l2csp/" style="color:white;">L2CSP</a></p></div>
-	<div class="labo offset-1"><p><a href="http://labs.ummto.dz/latage/" style="color:white;">LATAGE</a></p></div>
-	<div class="labo offset-1"><p><a href="http://labs.ummto.dz/lge/" style="color:white;">LGE</a></p></div>
-	<div class="labo offset-1"><p><a href="http://labs.ummto.dz/lari/" style="color:white;">LARI</a></p></div>
-	<div class="labo offset-1"><p><a href="http://labs.ummto.dz/lvaas/" style="color:white;">LVAAS</a></p></div>
-	<div class="labo offset-1"><p><a href="http://labs.ummto.dz/lvaas/lampa/" style="color:white;">LAMPA</a></p></div>
-
-        </div>
 
 </div>
 
 
-
-
-	<br/>
-	<br/>
-	<br/>
 
 	
+<br/>
+
 </div>
+
+
+
+
+
+
+
+<div align="center">
+<div class="jumbotron col-4" align="center" style="background-color: transparent; color: white">
+
+  <div ><h1>Votre Attention</h1></div>
+  <hr/>
+
+  <h6>Le contenu du site n'est pas complet (il est tout nouveau), il sera mis à jour régulièrement pour fixer certaines contraintes, ainsi ajouter des Cours & TD, des Examens et de la Documentation, vous pouvez toujours recommander des espaces ou des documents pour autres chose concernant le domaine (contactez par le mail du site, c'est le plus réactif)</h6>
+  
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <br/>
+    <br/>
+    <br/>
+        <br/>
+    <br/>
+
+
 
 
 
@@ -1151,9 +409,15 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
 
 
 
+<footer>
 
 
-<footer style="background-image: linear-gradient(to bottom, black, black, black, transparent,transparent, transparent, transparent, black), url('wall11.jpg'); background-size: cover;">>
+    <br/>
+    <br/>
+    <br/>
+        <br/>
+    <br/>
+
 	
 <br/>
 
@@ -1187,63 +451,52 @@ Au cours de la formation, en commançant par une initiation aux stucture récurs
   <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
 </svg>
 
-    
-    <br/>
-    <br/>
-    <br/>
-        <br/>
-    <br/>
 
 
 
-	<p id="footer_text" align="center" style="font-family: calibri;"><h10>
 
-		Site web réalisé par des étudiants du département d'Automatique, motivés par le besoin des camarades, ainsi à des fins de projets 
-		à court-terme caritatifs
-		<br/>
-		Ce site est toujours ouvert à d'éventuelles modifications selon les besoins des étudiants. <br/>Au service de ces deniers, il servira de référence de documentation comme objectif principal au cours de son évolution
-		<br/>
-		Département de FGEI, Hasnaoua II, Nouvelle Ville, TO
-		<br/>
-		<br/>
-		UMMTO 2021 Students ©</h10>
-	</p>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
 
 
 </footer>
 
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
+
+
 
 
 
 </html>
 
+<style>
+	body{
+		background-color: black;
+	
+	}
+
+
+	footer{
+			background-image:linear-gradient(to bottom,black, black, transparent,transparent, transparent, transparent, black),linear-gradient(to left, transparent, black), url('wall11.jpg'); background-size: cover;
+	}
+
+
+	footer:hover{
+	
+	}
 
 
 
+</style>
 
-<script>
-
-//Navigation
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-
-
-
-
-</script>
 
