@@ -1,6 +1,6 @@
 2021 Short-term Project - Website for sharing courses for students.
 
-Non-profit project which we share some of our energy for helping our brothely mates.
+Non-profit project in which we share some of our energy for helping our brotherly mates.
 
 This Website will get its update regularly (fixing constraints, adding items -courses- or more)
 
