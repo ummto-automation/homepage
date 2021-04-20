@@ -467,6 +467,13 @@ div{
     100%{width: 200px; height:1px; color:black;}
 }
 
+
+
+
+
+
+
+
 #introdef_jumb{
 
 
@@ -477,6 +484,8 @@ div{
    
 
 	transform: scale(1.06);
+
+
 }
 
 @keyframes anim_dilatationinf{
@@ -487,6 +496,32 @@ div{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+#introdef_bar{
+
+	animation-name: anim_dilatationinf;
+	animation-iteration-count: infinite;
+	position:relative;
+	animation-duration: 1s;
+	color: white;
+	background-color: white;
+
+	width: 200px;
+	 height:1px;
+
+
+}
 
 
 #introdef_barvideos{
@@ -508,7 +543,12 @@ div{
 
 
 
-
+@keyframes anim_dilatationinf{
+    
+    0%{width: 1px; height:1px;}
+    50%{width: 700px; height:1px;}
+    100%{width: 200px; height:1px; color:black;}
+}
 
 
 @keyframes anim_dilatationinf_videos{
