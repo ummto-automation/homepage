@@ -44,7 +44,7 @@
 	#news{
 	background-image:
     linear-gradient(to bottom,black,rgba(256, 250, 252, 0.01), rgba(256, 250, 252, 0.01),black,black),
-    url('wall7.jpeg');
+    url('wall14.jpg');
     background-size: cover;
   
     color: white;
@@ -154,6 +154,7 @@
 		margin-top: 20px;
 		color:black;
 		border-radius:0px;
+		border-color: transparent;
 
 	
 
@@ -342,7 +343,9 @@ div{
 }
 	
 
-
+  #icon_boot{
+    color: black
+  }
 
 
 	.sidenav {
