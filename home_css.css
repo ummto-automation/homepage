@@ -257,6 +257,14 @@
 		color:rgb(255, 98, 0);
 
 	}
+
+	#icon_boot2{
+		          position: relative;
+
+      text-align: center;
+     transition: transform 0.5s;
+     transform-style: preserve-3d;
+	}
 	
 	#icon_boot{
         color: white;
@@ -268,6 +276,10 @@
 
 	}
 	#icon_boot:hover{
+         transform: rotateY(180deg);
+        
+	}
+	#icon_boot2:hover{
          transform: rotateY(180deg);
         
 	}
