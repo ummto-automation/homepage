@@ -18,7 +18,7 @@
 	#header_bar{
 		 background-image:
     linear-gradient(to bottom, rgba(256, 250, 252, 0.01), transparent, black),
-    url('wall14.jpg');
+    url('wall5.jpg');
    
     background-size: cover;
     color: white;
@@ -635,6 +635,12 @@ div{
 	0%{width: 40px;color: white}
 	100%{width: 70px; color: gray}
 }
+
+
+
+
+
+
 
 
 </style>
