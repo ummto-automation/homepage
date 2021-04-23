@@ -344,7 +344,10 @@ div{
 	
 
   #icon_boot{
-    color: black
+    color: white;
+  }
+  #icon_boot2{
+  	color: black;
   }
 
 
