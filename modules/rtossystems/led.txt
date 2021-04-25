@@ -1,0 +1,38 @@
+#include <Arduino.h>
+#include <FreeRTOS.h>
+const int ledR = 22;
+const int ledB = 23;
+
+void cliledr(void * pvParameters){
+  for(;;){
+    digitalWrite(ledR, HIGH);
+    Serial.println("led rouge allumée");
+    vTaskDelay(pdMS_TO_TICKS(500));
+    digitalWrite(ledR, LOW);
+     Serial.println("led rouge eteinte");
+    vTaskDelay(pdMS_TO_TICKS(500));
+  }
+}
+void cliledb(void * pvParameters){
+  for(;;){
+    digitalWrite(ledB, HIGH);
+    Serial.println("led Bleu allumée");
+    vTaskDelay(pdMS_TO_TICKS(1000));
+    digitalWrite(ledB, LOW);
+    Serial.println("led bleu eteinte");
+    vTaskDelay(pdMS_TO_TICKS(1000));
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(ledR, OUTPUT);
+  pinMode(ledB, OUTPUT);
+  xTaskCreatePinnedToCore(cliledr, "Led rouge", 4096, NULL, 5, NULL,1);
+  xTaskCreatePinnedToCore(cliledb, "Led bleu", 4096, NULL, 5, NULL,0);
+  // put your setup code here, to run once:
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:.
+}

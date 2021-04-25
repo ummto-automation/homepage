@@ -1,0 +1,34 @@
+#include <Arduino.h>
+#include <FreeRTOS.h>
+#include <esp_freertos_hooks.h>
+
+volatile int compteur = 0;
+TaskHandle_t tsupervision;
+
+//Declaration de la fonction qu'on veut ajouter à la tâche Idle
+bool compter (void) {
+	compteur++;
+  return true;
+}
+
+//Tâche pour effectuer l'affichage
+void supervision(void* pvParameters){
+	while(1){
+		Serial.print("nombre d execution = ");
+		Serial.println(compteur);
+		
+		vTaskDelay(pdMS_TO_TICKS(1000));
+	}
+}
+
+void setup() {
+Serial.begin(115200);	
+  // appel de la fonction "compter"
+  esp_register_freertos_idle_hook_for_cpu(compter,0);
+  //Creation de la tâche d'affichage
+  xTaskCreatePinnedToCore(supervision, "Supervision", 4096, NULL, 5, &tsupervision,1);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+}
