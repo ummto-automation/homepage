@@ -124,6 +124,30 @@
 
 
 
+@keyframes animation_tra {
+
+  0%   {left:200px; top:0px;transform: rotate(0deg);}
+  15%  {left:200px; top:0px; transform: rotate(-0deg);}
+  30%  {left:200px; top:0px;transform: rotate(-0deg);}
+  45%  {left:-200px; top:0px; transform: rotate(-360deg);}
+  55%  {right:200px; top:0px;}
+  85%  {right:200px; top:0px;}
+  70%  {right:200px; top:0px;}
+  100% {right:-200px; top:0px;}
+
+
+
+}
+
+
+/* 0%   {left:0px; top:0px;}
+  15%  {left:200px; top:0px; transform: rotate(360deg);}
+  40%  {left:0px; top:0px; transform: rotate(0deg);}
+  50%  {right:0px; top:0px; transform: rotate(0deg);}
+  65%  {right:0px; top:0px; transform: rotate(-0deg);}
+  60%  {right:0px; top:0px;}
+  75%  {right:200px; top:0px;transform: rotate(-360deg)}
+  100% {right:0px; top:0px;}*/
 
 	#text_slogans{
      position: relative;
@@ -411,16 +435,6 @@ div{
 
 
 
-@keyframes animation_tra {
-  0%   {left:0px; top:0px;}
-  15%  {left:200px; top:0px; transform: rotate(360deg);}
-  40%  {left:0px; top:0px; transform: rotate(0deg);}
-  50%  {right:0px; top:0px; transform: rotate(0deg);}
-  65%  {right:0px; top:0px; transform: rotate(-0deg);}
-  60%  {right:0px; top:0px;}
-  75%  {right:200px; top:0px;transform: rotate(-360deg)}
-  100% {right:0px; top:0px;}
-}
 
 
 
