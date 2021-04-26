@@ -112,7 +112,7 @@
   position: relative;
   animation-name: animation_tra;
   animation-duration: 4s;
-  animation-iteration-count:3;
+  animation-iteration-count: infinite;
  
 	}
 
